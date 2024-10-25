@@ -1,14 +1,15 @@
 /* General styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5; /* Light background */
+    background-color: #F5F5F5; /* Light background */
     color: #333; /* Dark text */
     margin: 0;
     padding: 0;
+    line-height: 1.6; /* Improve line spacing */
 }
 
 header {
-    background-color: #4A90E2; /* Blue header */
+    background-color: #34495E; /* Dark slate header */
     color: #ffffff; /* White text */
     padding: 20px;
     text-align: center;
@@ -25,7 +26,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff; /* White links */
+    color: #FFC107; /* Amber links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -54,19 +55,18 @@ label {
     margin: 10px 0 5px;
 }
 
-select {
+select, button {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 button {
     background-color: #4A90E2; /* Button color */
     color: #ffffff; /* White button text */
-    padding: 10px 15px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -104,6 +104,6 @@ button:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #4A90E2; /* Blue footer */
+    background-color: #34495E; /* Dark slate footer */
     color: #ffffff; /* White text */
 }
