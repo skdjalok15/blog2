@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Light background */
+    color: #333; /* Dark text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4A90E2; /* Blue header */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #ffffff; /* White sidebar */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4A90E2; /* Button color */
+    color: #ffffff; /* White button text */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357ABD; /* Darker blue on hover */
+}
+
+#articles {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.article {
+    background-color: #ffffff; /* White article background */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+    color: #4A90E2; /* Blue article title */
+}
+
+.article img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.article p {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4A90E2; /* Blue footer */
+    color: #ffffff; /* White text */
+}
